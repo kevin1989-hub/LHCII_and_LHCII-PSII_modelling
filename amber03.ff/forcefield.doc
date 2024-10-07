@@ -1,0 +1,12 @@
+AMBER03 PSII force field (J. Comp. Chem. 2012, 33, 1969–1980)
+
+********************************************************************
+* Combine the original ffamber ports from Sorin lab with the       *
+* developed force field for cofactors in PSII                      *
+* For the implementation/validation, please read/cite:             * 
+* Sorin & Pande (2005). Biophys. J. 88(4), 2472-2493.              *
+* "Force Field Development for Cofactors in the Photosystem II"    *
+*   Lu Zhang, Daniel-Adriano Silva, YiJing Yan and Xuhui Huang     *
+*   J. Comp. Chem. 2012, 33, 1969–1980                             *
+********************************************************************
+

@@ -1,0 +1,61 @@
+; In this topology include file, you will find position restraint
+; entries for all the heavy atoms in your original pdb file.
+; This means that all the protons which were added by pdb2gmx are
+; not restrained.
+
+[ position_restraints ]
+; atom  type      fx      fy      fz
+     1     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+     4     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+     7     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    10     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    13     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    16     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    19     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    22     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    24     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    26     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    29     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    32     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    35     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    38     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    41     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    44     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    47     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    51     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    52     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    53     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    54     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    57     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    59     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    62     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    63     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    64     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    65     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    68     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    71     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    72     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    76     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    80     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    84     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    85     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    86     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    87     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    88     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    89     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    92     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    95     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+    98     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   101     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   104     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   107     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   110     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   112     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   114     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   117     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   120     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   123     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   126     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   129     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   132     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water
+   135     1  POSRES_FC_water  POSRES_FC_water  POSRES_FC_water

@@ -1,0 +1,71 @@
+; In this topology include file, you will find position restraint
+; entries for all the heavy atoms in your original pdb file.
+; This means that all the protons which were added by pdb2gmx are
+; not restrained.
+
+[ position_restraints ]
+; atom  type      fx      fy      fz
+     1     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+     5     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+     7     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    11     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    14     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    17     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    20     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    22     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    26     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    29     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    32     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    35     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    37     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    41     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    44     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    47     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    50     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    51     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    55     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    57     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    60     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    61     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    62     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    63     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    66     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    69     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    71     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    73     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    77     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    78     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    80     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    81     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    83     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    84     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    85     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    86     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    90     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    92     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    95     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    96     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    97     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    98     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+    99     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   101     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   103     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   104     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   105     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   106     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   110     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   111     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   112     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   113     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   114     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   118     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   119     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   121     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   122     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   123     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   126     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   130     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   131     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   135     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   136     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm
+   137     1  POSRES_FC_Pigm  POSRES_FC_Pigm  POSRES_FC_Pigm

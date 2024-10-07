@@ -1,0 +1,151 @@
+;
+;	File 'topol.top' was generated
+;	By user: user01 (1002)
+;	On host: master
+;	At date: Thu Jun 10 21:49:21 2021
+;
+;	This is a standalone topology file
+;
+;	Created by:
+;	           :-) GROMACS - gmx pdb2gmx, 2019.6 (double precision) (-:
+;	
+;	Executable:   /opt/gromacs-2019/bin/gmx_mpi_d
+;	Data prefix:  /opt/gromacs-2019
+;	Working dir:  /home/user01/LHCII-PSII/LHCII_Gromacs/complex_all_em
+;	Command line:
+;	  gmx_mpi_d pdb2gmx -f Protein_CHL_CLA.pdb -ignh
+;	Force field was read from current directory or a relative path - path added.
+;
+
+; Include forcefield parameters
+#include "./amber03.ff/forcefield.itp"
+
+; Include chain topologies
+#include "./params.ff/topol_Protein_chain_G.itp"
+#include "./params.ff/topol_Protein_chain_N.itp"
+#include "./params.ff/topol_Protein_chain_Y.itp"
+;#include ./params.ff/"PHO_RESP_GMX.itp"
+;#include ./params.ff/"BCR_RESP_GMX.itp"
+;#include ./params.ff/"PL9_RESP_GMX.itp"
+#include "./params.ff/XAT_RESP_GMX.itp"
+;#include ./params.ff/"BCT_RESP_GMX.itp"
+#include "./params.ff/LUT_RESP_GMX.itp"
+#include "./params.ff/NEX_RESP_GMX.itp"
+#include "./params.ff/topol_Other.itp"
+#include "./params.ff/topol_Other2.itp"
+#include "./params.ff/topol_Other3.itp"
+#include "./params.ff/topol_Other4.itp"
+#include "./params.ff/topol_Other5.itp"
+#include "./params.ff/topol_Other6.itp"
+#include "./params.ff/topol_Other7.itp"
+#include "./params.ff/topol_Other8.itp"
+#include "./params.ff/topol_Other9.itp"
+#include "./params.ff/topol_Other10.itp"
+#include "./params.ff/topol_Other11.itp"
+#include "./params.ff/topol_Other12.itp"
+#include "./params.ff/topol_Other13.itp"
+#include "./params.ff/topol_Other14.itp"
+#include "./params.ff/topol_Other15.itp"
+#include "./params.ff/topol_Other16.itp"
+#include "./params.ff/topol_Other17.itp"
+#include "./params.ff/topol_Other18.itp"
+#include "./params.ff/topol_Other19.itp"
+#include "./params.ff/topol_Other20.itp"
+#include "./params.ff/topol_Other21.itp"
+#include "./params.ff/topol_Other22.itp"
+#include "./params.ff/topol_Other23.itp"
+#include "./params.ff/topol_Other24.itp"
+#include "./params.ff/topol_Other25.itp"
+#include "./params.ff/topol_Other26.itp"
+#include "./params.ff/topol_Other27.itp"
+#include "./params.ff/topol_Other28.itp"
+#include "./params.ff/topol_Other29.itp"
+#include "./params.ff/topol_Other30.itp"
+#include "./params.ff/topol_Other31.itp"
+#include "./params.ff/topol_Other32.itp"
+#include "./params.ff/topol_Other33.itp"
+#include "./params.ff/topol_Other34.itp"
+#include "./params.ff/topol_Other35.itp"
+#include "./params.ff/topol_Other36.itp"
+#include "./params.ff/topol_Other37.itp"
+#include "./params.ff/topol_Other38.itp"
+#include "./params.ff/topol_Other39.itp"
+#include "./params.ff/topol_Other40.itp"
+#include "./params.ff/topol_Other41.itp"
+#include "./params.ff/topol_Other42.itp"
+#include "./params.ff/lipid17.itp"
+
+; Include water topology
+#include "./amber03.ff/tip3p.itp"
+
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct       fcx        fcy        fcz
+   1    1       1000       1000       1000
+#endif
+
+; Include topology for ions
+#include "./amber03.ff/ions.itp"
+
+[ system ]
+; Name
+Gravel Rubs Often Many Awfully Cauterized Sores in water
+
+[ molecules ]
+; Compound        #mols
+Protein_chain_G     1
+Protein_chain_N     1
+Protein_chain_Y     1
+;PHO_RESP            1
+;BCR_RESP            1
+;PL9_RESP            1
+XAT	            3
+;BCT_RESP            1
+LUT	            6
+NEX	            3
+Other               1
+Other2              1
+Other3              1
+Other4              1
+Other5              1
+Other6              1
+Other7              1
+Other8              1
+Other9              1
+Other10             1
+Other11             1
+Other12             1
+Other13             1
+Other14             1
+Other15             1
+Other16             1
+Other17             1
+Other18             1
+Other19             1
+Other20             1
+Other21             1
+Other22             1
+Other23             1
+Other24             1
+Other25             1
+Other26             1
+Other27             1
+Other28             1
+Other29             1
+Other30             1
+Other31             1
+Other32             1
+Other33             1
+Other34             1
+Other35             1
+Other36             1
+Other37             1
+Other38             1
+Other39             1
+Other40             1
+Other41             1
+Other42             1
+POPC           306
+SOL         30713
+NA               30
